@@ -1,7 +1,8 @@
 #' Document this object
 #'
 #' This RStudio addin takes the name of an object (either an R function or an R
-#' data.frame), and replaces it with some skeleton roxygen2 documentation.
+#' data.frame), and replaces it with some skeleton roxygen2 documentation. Aslong as the rstudioapi is installed this does also 
+#' work for vscode.
 #'
 #' For functions, empty \code{@param}s are generated from the function's arguments, while for dataframes a full \code{\\description} block is generated from column names
 #'
