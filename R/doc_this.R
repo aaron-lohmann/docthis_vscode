@@ -11,7 +11,7 @@
 #' @name doc_this
 #'
 #' @examples
-#' doc_this("lm")
+#' doc_this_addin("lm")
 #' #' FUNCTION_TITLE
 #' #'
 #' #' FUNCTION_DESCRIPTION
@@ -35,7 +35,7 @@
 #' #' @examples
 #' #' # ADD EXAMPLES HERE
 #'
-#' doc_this("iris")
+#' doc_this_addin("iris")
 #' #' DATASET TITLE
 #' #'
 #' #' DATASET DESCRIPTION
@@ -52,9 +52,9 @@ NULL
 
 #' @rdname doc_this
 #' @export
-doc_this_addin <- function() {
+doc_this_addin <- function(objname) {
   context <- rstudioapi::getActiveDocumentContext()
-  objname <- strpquotes(context$selection[[1]]$text)
+  #objname <- strpquotes(context$selection[[1]]$text)
   rstudioapi::insertText(text = doc_this(objname))
 }
 
