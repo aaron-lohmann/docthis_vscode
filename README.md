@@ -1,5 +1,7 @@
 # docthis: Document this [object]
 
+Fork of project by [mdlicoln](https://github.com/mdlincoln/docthis) to ensure the desired behaviour on vscode. 
+
 An RStudio addin that builds the skeleton of documentation for an R function or dataframe using the roxygen2 syntax.
 
 ## Installation
