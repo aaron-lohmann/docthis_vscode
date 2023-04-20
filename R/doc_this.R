@@ -6,7 +6,7 @@
 #'
 #' For functions, empty \code{@param}s are generated from the function's arguments, while for dataframes a full \code{\\description} block is generated from column names
 #'
-#' @note The object must be available within the evaulation environment.
+#' @note The object must be available within the evaulation environment. ;
 #'
 #' @param objname A character string naming an R function or data.frame.
 #' @name doc_this
